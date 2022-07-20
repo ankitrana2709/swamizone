@@ -1,2 +1,2 @@
 # Tableau
-Try to Embed code from Tableau Viz
+Deploying this Tableau Resume i Created.
