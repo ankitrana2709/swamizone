@@ -5,8 +5,13 @@ app=Flask(__name__)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 @app.route('/')
-def resume():
-    return render_template("Resume.html")
+def index():
+    return render_template("index.html")
+
+
+@app.route('/tableau')
+def tableau():
+    return render_template("tableau.html")
 
 if __name__ == '__main__':
     app.run()
