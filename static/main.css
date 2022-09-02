@@ -4036,7 +4036,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #ddffff;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
@@ -4046,7 +4046,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			border-top: solid 2px #dddddd;
 			margin: 0;
 		}
 
@@ -4142,7 +4142,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
+				border-color: #dddddd;
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
