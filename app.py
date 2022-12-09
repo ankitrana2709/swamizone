@@ -1,4 +1,4 @@
-from flask import Flask, flash, redirect, render_template, request
+from flask import Flask, render_template
 
 app=Flask(__name__)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -10,7 +10,6 @@ def index():
 @app.route('/tableau')
 def tableau():
     return render_template("tableau.html")
-    
 @app.route('/education')
 def education():
     return render_template("education.html")
